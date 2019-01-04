@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/scrollView1">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/Root">
+        <Button
+            p1:text="Save Configuration"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Save_Config_button" />
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_1"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Aztec"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Aztec"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch1"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_2"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Codabar"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Codabar"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch2"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_3"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Codablock"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Codablock"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch3"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_4"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Code11"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Code11"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch4"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_5"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Code128"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Code128"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch5"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_6"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Code39"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Code39"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch6"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_7"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Code93"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Code93"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch7"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_8"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="DataMatrix"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/DataMatrix"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch8"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_9"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="EAN8"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/EAN8"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch9"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_10"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="EAN13"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/EAN13"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch10"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_11"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="GS1 128"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/GS1128"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch11"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_12"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="HanXin"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/HanXin"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch12"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_13"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="IATA 2of5"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Iata25"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch13"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_14"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Interleaved 2of5"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Int25"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch14"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_15"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="ISBT 128"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/ISBT128"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch15"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_16"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Matrix 2of5"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Matrix25"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch16"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_17"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="MaxiCode"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/MaxiCode"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch17"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_18"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="MicroPDF417"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/MicroPDF417"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch18"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_19"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Msi"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Msi"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch19"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_20"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="QR Code"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/QRCode"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch20"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_37"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="PDF417"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/PDF417"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch37"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_21"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="RSS"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/RSS"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch21"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_22"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="RSS Expanded"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/RSSE"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch22"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_23"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="RSS Limited"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/RSSL"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch23"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_24"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Standard 2of5"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Std25"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch24"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_25"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Telepen"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Telepen"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch25"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_26"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Tlc39"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Tlc39"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch26"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_27"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Trioptic"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/Trioptic"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch27"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_28"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="UPCE"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/UPCE"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch28"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_29"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="UPCA"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/UPCA"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch29"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_30"
+            p1:layout_marginTop="15dp">
+            <TextView
+                p1:text="Scanner Options"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/ScannerOptions"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp"
+                p1:textStyle="bold"
+                p1:textColor="#00a8ff" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_31"
+            p1:layout_marginTop="15dp">
+            <TextView
+                p1:text="Reverse Video"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/ReverseVideo"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch31"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_32"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Center Decode"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/CenterDecode"
+                p1:layout_marginTop="2dp"
+                p1:layout_marginLeft="10dp" />
+            <Switch
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/switch32"
+                p1:layout_marginLeft="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_33"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Decode Window Bottom"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/DecodeWinBot"
+                p1:layout_marginTop="10dp"
+                p1:layout_marginLeft="10dp" />
+            <EditText
+                p1:inputType="number"
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/editText33"
+                p1:layout_marginLeft="20dp"
+                p1:text="100" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_34"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Decode Window Left"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/DecodeWinLeft"
+                p1:layout_marginTop="10dp"
+                p1:layout_marginLeft="10dp"
+                p1:editable="false" />
+            <EditText
+                p1:inputType="number"
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/editText34"
+                p1:layout_marginLeft="20dp"
+                p1:text="0" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_35"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Decode Window Right"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/DecodeWinRight"
+                p1:layout_marginTop="10dp"
+                p1:layout_marginLeft="10dp" />
+            <EditText
+                p1:inputType="number"
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/editText35"
+                p1:layout_marginLeft="20dp"
+                p1:text="100" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Item_36"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="Decode Window Top"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="280dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/DecodeWinTop"
+                p1:layout_marginTop="10dp"
+                p1:layout_marginLeft="10dp" />
+            <EditText
+                p1:inputType="number"
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/editText36"
+                p1:layout_marginLeft="20dp"
+                p1:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
